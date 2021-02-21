@@ -1,0 +1,18 @@
+{
+    "name": "geanmarco/wavsound",
+    "description": "paquete de desarrollo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gean marco",
+            "email": "geanmarco0@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wavsound\\": "src/"
+        }
+    }
+}
