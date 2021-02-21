@@ -1,6 +1,6 @@
 <?php
 
-namespace FileWav;
+namespace Audition;
 
 class Wav
 {
@@ -25,7 +25,7 @@ class Wav
         $this->read();
     }
 
-    public function getInfo(): Info
+    public function getInfo()
     {
         return $this->info;
     }
@@ -33,7 +33,7 @@ class Wav
     /**
      * @throws Exception
      */
-    private function read(): void
+    private function read()
     {
         $this->info->setFilename(\realpath($this->file));
         $this->info->setExtension(\pathinfo($this->info->getFilename())['extension']);
