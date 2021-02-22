@@ -16,6 +16,5 @@
         "psr-4": {
             "Wavsound\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
