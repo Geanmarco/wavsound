@@ -3,6 +3,8 @@
     "description": "paquete de desarrollo",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "authors": [
         {
             "name": "gean marco",
