@@ -1,6 +1,6 @@
 <?php
 
-namespace Wavsound;
+namespace wavsound;
 
 class Info
 {

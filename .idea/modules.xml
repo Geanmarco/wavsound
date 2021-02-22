@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/diopen.iml" filepath="$PROJECT_DIR$/.idea/diopen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wavsound.iml" filepath="$PROJECT_DIR$/.idea/wavsound.iml" />
     </modules>
   </component>
 </project>
