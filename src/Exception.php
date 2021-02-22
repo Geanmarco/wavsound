@@ -1,6 +1,6 @@
 <?php
 
-namespace Audition;
+namespace Wavsound;
 
 class Exception extends \Exception
 {
