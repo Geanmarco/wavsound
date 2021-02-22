@@ -9,7 +9,9 @@
             "email": "geanmarco0@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.3.0"
+    },
     "autoload": {
         "psr-4": {
             "Wavsound\\": "src/"
