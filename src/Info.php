@@ -19,6 +19,11 @@ class Info
     /**
      * @var string|null
      */
+    private $name;
+
+    /**
+     * @var string|null
+     */
     private $compression;
     /**
      * @var int|null
@@ -140,6 +145,29 @@ class Info
     {
         return $this->filename;
     }
+
+
+    /**
+     * @param int $filesize
+     *
+     * @return $this
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+
 
     /**
      * @param int $filesize
