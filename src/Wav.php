@@ -37,6 +37,7 @@ class Wav
     {
         $this->info->setFilename(\realpath($this->file));
         $this->info->setExtension(\pathinfo($this->info->getFilename())['extension']);
+        $this->info->setExtension(\pathinfo($this->info->getFilename())['extension']);
 
         $file = @\fopen($this->file, 'rb');
         if (false === $file) {
